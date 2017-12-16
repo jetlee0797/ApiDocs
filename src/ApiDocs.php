@@ -28,6 +28,7 @@ class ApiDocs
         $endpoints = $this->getEndpoints($currentPrefix);
         $endpoints = $this->getSortedEndpoints($endpoints);
         $prefixes  = $this->getRoutePrefixes();
+        $endpoints = $endpoints['App']['Http']['Controllers']['API'];
         
         return view('apidocs::docs', compact('endpoints', 'prefixes', 'currentPrefix'));
     } // end show
