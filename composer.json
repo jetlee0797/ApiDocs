@@ -1,5 +1,5 @@
 {
-    "name": "yaro/apidocs",
+    "name": "jetlee0797/apidocs",
     "description": "Api documentation generator for Laravel 5",
     "keywords": ["laravel", "api", "docs", "documentation", "blueprint", "api blueprint"],
     "require": {
