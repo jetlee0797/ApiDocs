@@ -1,7 +1,7 @@
 <div class="form-group">
-    <label class="col-sm-1 control-label"><span class="label label-info">{{ $param['type'] }}</span></label>
-    <label class="col-sm-2 control-label">{{ $param['name'] }}</label>
-    <div class="col-sm-9">
+    <label class="col-sm-2 control-label" ><span class="label label-info" style="float:left;">{{ $param['type'] }}</span></label>
+    <label class="col-sm-3 control-label text-left" style="text-align:left;">{{ $param['name'] }}：</label>
+    <div class="col-sm-7">
         <input type="number"
         pattern="\\d*"
         class="form-control"
